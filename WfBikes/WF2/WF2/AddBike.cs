@@ -71,5 +71,10 @@ namespace WF2
         {
 
         }
+
+        private void Closing(object sender, FormClosingEventArgs e)
+        {
+
+        }
     }
 }

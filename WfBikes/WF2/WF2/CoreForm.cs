@@ -28,6 +28,7 @@ namespace WF2
             AddBike ab = new AddBike();
             if (ab.ShowDialog() == DialogResult.OK)
             {
+
                 lvBikes.Items.Add(ab.GetCreatedBike().ToString());
             }
         }
@@ -49,6 +50,16 @@ namespace WF2
         }
 
         private void mainMenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void CoreForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lvBikes_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

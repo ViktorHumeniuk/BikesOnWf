@@ -14,3 +14,14 @@ D:\Google Диск\IT-Academy\C#\Lectures\WF2.2\WF2\WF2\bin\Debug\WF2.pdb
 D:\Google Диск\IT-Academy\C#\home work\WfBikes\WF2\WF2\bin\Debug\WF2.exe.config
 D:\Google Диск\IT-Academy\C#\home work\WfBikes\WF2\WF2\obj\Debug\WF2.exe
 D:\Google Диск\IT-Academy\C#\home work\WfBikes\WF2\WF2\obj\Debug\WF2.pdb
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\bin\Debug\WF2.exe.config
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.exe
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.pdb
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WfBikes.csprojResolveAssemblyReference.cache
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.AddBike.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.CoreForm.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.Properties.Resources.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.UcCross.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.UcHardTail.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WF2.UcMountain.resources
+D:\Google Диск\IT-Academy\C#\Git\WfBikes\WF2\WF2\obj\Debug\WfBikes.csproj.GenerateResource.Cache

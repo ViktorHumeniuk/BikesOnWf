@@ -127,7 +127,7 @@
             this.scContent.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.scContent.IsSplitterFixed = true;
             this.scContent.Location = new System.Drawing.Point(0, 24);
-            this.scContent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.scContent.Margin = new System.Windows.Forms.Padding(2);
             this.scContent.Name = "scContent";
             // 
             // scContent.Panel1
@@ -146,13 +146,14 @@
             this.lvBikes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvBikes.GridLines = true;
             this.lvBikes.Location = new System.Drawing.Point(0, 0);
-            this.lvBikes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lvBikes.Margin = new System.Windows.Forms.Padding(2);
             this.lvBikes.MultiSelect = false;
             this.lvBikes.Name = "lvBikes";
             this.lvBikes.Size = new System.Drawing.Size(170, 286);
             this.lvBikes.TabIndex = 0;
             this.lvBikes.UseCompatibleStateImageBehavior = false;
             this.lvBikes.View = System.Windows.Forms.View.Details;
+            this.lvBikes.SelectedIndexChanged += new System.EventHandler(this.lvBikes_SelectedIndexChanged);
             // 
             // colName
             // 
@@ -172,12 +173,13 @@
             this.Controls.Add(this.mainMenuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mainMenuStrip;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(513, 349);
             this.Name = "CoreForm";
             this.Text = "Bike form";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.coreForm_FormClosing);
+            this.Load += new System.EventHandler(this.CoreForm_Load);
             this.mainMenuStrip.ResumeLayout(false);
             this.mainMenuStrip.PerformLayout();
             this.scContent.Panel1.ResumeLayout(false);
