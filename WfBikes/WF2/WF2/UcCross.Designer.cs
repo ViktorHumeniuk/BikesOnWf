@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.lbDiametr = new System.Windows.Forms.Label();
             this.tbDiametr = new System.Windows.Forms.TextBox();
             this.tbWeight = new System.Windows.Forms.TextBox();
@@ -37,9 +36,6 @@
             this.cbColor = new System.Windows.Forms.ComboBox();
             this.tbName = new System.Windows.Forms.TextBox();
             this.lbName = new System.Windows.Forms.Label();
-            this.lbSize = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.tbSize = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbDiametr
@@ -116,35 +112,10 @@
             this.lbName.TabIndex = 6;
             this.lbName.Text = "Name";
             // 
-            // lbSize
-            // 
-            this.lbSize.AutoSize = true;
-            this.lbSize.Location = new System.Drawing.Point(17, 163);
-            this.lbSize.Name = "lbSize";
-            this.lbSize.Size = new System.Drawing.Size(27, 13);
-            this.lbSize.TabIndex = 8;
-            this.lbSize.Text = "Size";
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // tbSize
-            // 
-            this.tbSize.Location = new System.Drawing.Point(66, 160);
-            this.tbSize.Margin = new System.Windows.Forms.Padding(2);
-            this.tbSize.Name = "tbSize";
-            this.tbSize.Size = new System.Drawing.Size(76, 20);
-            this.tbSize.TabIndex = 9;
-            // 
             // UcCross
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tbSize);
-            this.Controls.Add(this.lbSize);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.lbName);
             this.Controls.Add(this.cbColor);
@@ -155,8 +126,8 @@
             this.Controls.Add(this.lbDiametr);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UcCross";
-            this.Size = new System.Drawing.Size(219, 193);
-     
+            this.Size = new System.Drawing.Size(216, 170);
+            this.Load += new System.EventHandler(this.UcCross_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,8 +143,5 @@
         private System.Windows.Forms.ComboBox cbColor;
         private System.Windows.Forms.TextBox tbName;
         private System.Windows.Forms.Label lbName;
-        private System.Windows.Forms.Label lbSize;
-        private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.TextBox tbSize;
     }
 }

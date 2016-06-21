@@ -19,20 +19,13 @@ namespace WF2
 
         public Cross GetCross()
         {
-            return new Cross()
+            return new Cross
             {
-                Name = tbName.Text;
-                Size = tbSize.Text.GetInt();
+                Name = tbName.Text,
             };
         }
 
         private void UcCross_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
-
-    private void UcCross_Load(object sender, EventArgs e)
         {
 
         }
