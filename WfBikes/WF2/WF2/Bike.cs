@@ -1,13 +1,16 @@
-﻿namespace WF2
+﻿using System;
+
+namespace WF2
 {
     public class Bike
     {
-       public string Name { get; set; }
-       public int Size { get; set; }
+        public readonly int Id;
+        public string Name { get; set; }
+        public float Price { get; set; }
 
-        public override string ToString()
+        public Bike(int id)
         {
-            return Name;
+            Id = id;
         }
     }
 }
