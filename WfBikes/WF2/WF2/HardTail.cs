@@ -9,13 +9,13 @@ namespace WF2
 
         }
 
-        public float HardTeilMaxSpeed;
-        public float HardTeilOld;
+        public float MaxSpeed;
+        public float Old;
         
     
         public override string ToString()
         {
-            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, HardTeilMaxSpeed, HardTeilOld, BikeType.HardTail);
+            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, MaxSpeed, Old, BikeType.HardTail);
         }
     }
 }

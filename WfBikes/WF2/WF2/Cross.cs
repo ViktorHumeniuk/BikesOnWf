@@ -4,8 +4,8 @@ namespace WF2
 {
     public class Cross : Bike
     {
-        public float CrossDiametr;
-        public float CrossWeight;
+        public float Diametr;
+        public float Weight;
 
         public Cross(int id) : base(id)
         {
@@ -14,7 +14,7 @@ namespace WF2
        
         public override string ToString()
         {
-            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, CrossDiametr, CrossWeight, BikeType.Cross);
+            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, Diametr, Weight, BikeType.Cross);
         }
     }
 }

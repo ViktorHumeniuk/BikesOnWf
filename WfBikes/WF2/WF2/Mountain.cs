@@ -8,15 +8,15 @@ namespace WF2
         {
         }
 
-        public string HardMaterial;
-        public string HardCountryOfProduce;
+        public string Material;
+        public string CountryOfProduce;
 
 
       
 
         public override string ToString()
         {
-            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, HardMaterial, HardCountryOfProduce, BikeType.Mountain);
+            return string.Format("{0};{1};{2};{3};{4};{5}", Id, Name, Price, Material, CountryOfProduce, BikeType.Mountain);
         }
     }
 }
