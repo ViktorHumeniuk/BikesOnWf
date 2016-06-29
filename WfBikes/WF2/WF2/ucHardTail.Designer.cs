@@ -28,57 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tblName = new System.Windows.Forms.TextBox();
-            this.lbName = new System.Windows.Forms.Label();
-            this.cbColor = new System.Windows.Forms.ComboBox();
-            this.lbColor = new System.Windows.Forms.Label();
             this.tbOld = new System.Windows.Forms.TextBox();
             this.lbOld = new System.Windows.Forms.Label();
             this.tbSpeed = new System.Windows.Forms.TextBox();
             this.lbSpeed = new System.Windows.Forms.Label();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.lbName = new System.Windows.Forms.Label();
+            this.tbPrice = new System.Windows.Forms.TextBox();
+            this.lbPrice = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // tblName
-            // 
-            this.tblName.Location = new System.Drawing.Point(82, 113);
-            this.tblName.Margin = new System.Windows.Forms.Padding(2);
-            this.tblName.Name = "tblName";
-            this.tblName.Size = new System.Drawing.Size(76, 20);
-            this.tblName.TabIndex = 16;
-            // 
-            // lbName
-            // 
-            this.lbName.AutoSize = true;
-            this.lbName.Location = new System.Drawing.Point(30, 113);
-            this.lbName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbName.Name = "lbName";
-            this.lbName.Size = new System.Drawing.Size(35, 13);
-            this.lbName.TabIndex = 15;
-            this.lbName.Text = "Name";
-            // 
-            // cbColor
-            // 
-            this.cbColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbColor.FormattingEnabled = true;
-            this.cbColor.Location = new System.Drawing.Point(77, 78);
-            this.cbColor.Margin = new System.Windows.Forms.Padding(2);
-            this.cbColor.Name = "cbColor";
-            this.cbColor.Size = new System.Drawing.Size(81, 21);
-            this.cbColor.TabIndex = 14;
-            // 
-            // lbColor
-            // 
-            this.lbColor.AutoSize = true;
-            this.lbColor.Location = new System.Drawing.Point(30, 78);
-            this.lbColor.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbColor.Name = "lbColor";
-            this.lbColor.Size = new System.Drawing.Size(31, 13);
-            this.lbColor.TabIndex = 13;
-            this.lbColor.Text = "Color";
             // 
             // tbOld
             // 
-            this.tbOld.Location = new System.Drawing.Point(114, 46);
+            this.tbOld.Location = new System.Drawing.Point(116, 111);
             this.tbOld.Margin = new System.Windows.Forms.Padding(2);
             this.tbOld.Name = "tbOld";
             this.tbOld.Size = new System.Drawing.Size(44, 20);
@@ -87,7 +49,7 @@
             // lbOld
             // 
             this.lbOld.AutoSize = true;
-            this.lbOld.Location = new System.Drawing.Point(30, 46);
+            this.lbOld.Location = new System.Drawing.Point(32, 111);
             this.lbOld.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbOld.Name = "lbOld";
             this.lbOld.Size = new System.Drawing.Size(23, 13);
@@ -96,7 +58,7 @@
             // 
             // tbSpeed
             // 
-            this.tbSpeed.Location = new System.Drawing.Point(82, 16);
+            this.tbSpeed.Location = new System.Drawing.Point(84, 81);
             this.tbSpeed.Margin = new System.Windows.Forms.Padding(2);
             this.tbSpeed.Name = "tbSpeed";
             this.tbSpeed.Size = new System.Drawing.Size(76, 20);
@@ -105,42 +67,78 @@
             // lbSpeed
             // 
             this.lbSpeed.AutoSize = true;
-            this.lbSpeed.Location = new System.Drawing.Point(30, 16);
+            this.lbSpeed.Location = new System.Drawing.Point(32, 81);
             this.lbSpeed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbSpeed.Name = "lbSpeed";
             this.lbSpeed.Size = new System.Drawing.Size(38, 13);
             this.lbSpeed.TabIndex = 9;
             this.lbSpeed.Text = "Speed";
             // 
+            // tbName
+            // 
+            this.tbName.Location = new System.Drawing.Point(84, 51);
+            this.tbName.Margin = new System.Windows.Forms.Padding(2);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(76, 20);
+            this.tbName.TabIndex = 33;
+            // 
+            // lbName
+            // 
+            this.lbName.AutoSize = true;
+            this.lbName.Location = new System.Drawing.Point(32, 51);
+            this.lbName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbName.Name = "lbName";
+            this.lbName.Size = new System.Drawing.Size(35, 13);
+            this.lbName.TabIndex = 32;
+            this.lbName.Text = "Name";
+            // 
+            // tbPrice
+            // 
+            this.tbPrice.Location = new System.Drawing.Point(84, 21);
+            this.tbPrice.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPrice.Name = "tbPrice";
+            this.tbPrice.Size = new System.Drawing.Size(76, 20);
+            this.tbPrice.TabIndex = 31;
+            // 
+            // lbPrice
+            // 
+            this.lbPrice.AutoSize = true;
+            this.lbPrice.Location = new System.Drawing.Point(32, 21);
+            this.lbPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbPrice.Name = "lbPrice";
+            this.lbPrice.Size = new System.Drawing.Size(31, 13);
+            this.lbPrice.TabIndex = 30;
+            this.lbPrice.Text = "Price";
+            // 
             // UcHardTail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.tblName);
+            this.Controls.Add(this.tbName);
             this.Controls.Add(this.lbName);
-            this.Controls.Add(this.cbColor);
-            this.Controls.Add(this.lbColor);
+            this.Controls.Add(this.tbPrice);
+            this.Controls.Add(this.lbPrice);
             this.Controls.Add(this.tbOld);
             this.Controls.Add(this.lbOld);
             this.Controls.Add(this.tbSpeed);
             this.Controls.Add(this.lbSpeed);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UcHardTail";
             this.Size = new System.Drawing.Size(252, 151);
+            this.Load += new System.EventHandler(this.UcHardTail_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tblName;
-        private System.Windows.Forms.Label lbName;
-        private System.Windows.Forms.ComboBox cbColor;
-        private System.Windows.Forms.Label lbColor;
         private System.Windows.Forms.TextBox tbOld;
         private System.Windows.Forms.Label lbOld;
         private System.Windows.Forms.TextBox tbSpeed;
         private System.Windows.Forms.Label lbSpeed;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.Label lbName;
+        private System.Windows.Forms.TextBox tbPrice;
+        private System.Windows.Forms.Label lbPrice;
     }
 }
